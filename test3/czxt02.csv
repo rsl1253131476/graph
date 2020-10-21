@@ -1,0 +1,140 @@
+﻿from_name,property,to_name
+缓冲区,type,多重缓冲区
+缓冲区,type,环形缓冲区
+缓冲区,subclassof,存储体系结构
+DMA,subclassof,存储体系结构
+MMU,subclassof,存储体系结构
+ROM,subclassof,存储体系结构
+SSD,subclassof,存储体系结构
+虚拟地址,subclassof,存储体系结构
+EEPROM,subclassof,存储体系结构
+闪存,subclassof,存储体系结构
+地址空间,subclassof,存储体系结构
+稳定存储,subclassof,存储体系结构
+缓存命中,subclassof,存储体系结构
+高速缓存行,subclassof,存储体系结构
+DMA,subclassof,存储体系结构
+RAID,subclassof,存储体系结构
+内存映射I/O,subclassof,. I/O port
+端口映射I/O,subclassof,. I/O port
+显卡,subclassof,设备控制器
+位图,subclassof,设备控制器
+QR Code,subclassof,设备控制器
+假脱机,subclassof,设备控制器
+电阻式触摸屏,subclassof,设备控制器
+电容式触摸屏,subclassof,设备控制器
+逻辑块寻址,subclassof,设备控制器
+时钟,subclassof,设备控制器
+主设备编号,subclassof,设备控制器
+挂载,subclassof,设备控制器
+设备独立性,subclassof,设备控制器
+. I/O port,subclassof,设备控制器
+轮询,subclassof,设备控制器
+设备控制器,subclassof,name
+存储体系结构,subclassof,name
+Java 虚拟机,subclassof,虚拟机
+云计算,subclassof,云
+半虚拟化,subclassof,虚拟化技术
+全虚拟化,subclassof,虚拟化技术
+VMM,subclassof,虚拟化技术
+云,subclassof,虚拟化技术
+虚拟机,subclassof,虚拟化技术
+虚拟化技术,subclassof,name
+工作目录,subclassof,目录
+根目录,subclassof,目录
+路径,subclassof,目录
+文件描述符,subclassof,目录
+目标文件,subclassof,目录
+服务端,subclassof,主从架构
+客户端,subclassof,主从架构
+主从模型,subclassof,主从架构
+用户模式,subclassof,主从架构
+内核模式,subclassof,主从架构
+主从架构,subclassof,name
+活锁,subclassof,突发模式
+死锁,subclassof,突发模式
+不可抢占资源,subclassof,突发模式
+可抢占资源,subclassof,突发模式
+异步响应,subclassof,突发模式
+同步阻塞,subclassof,突发模式
+错误处理,subclassof,突发模式
+局域网,subclassof,主机
+广域网,subclassof,主机
+以太网,subclassof,主机
+桥接器,subclassof,主机
+inode,subclassof,主机
+周期窃取,subclassof,主机
+中断向量表,subclassof,主机
+系统检查点,subclassof,主机
+命令行界面,subclassof,主机
+中断向量,subclassof,主机
+主机,subclassof,name
+大型机,subclassof,name
+图形处理器,subclassof,name
+超级用户,subclassof,name
+实时迁移,subclassof,name
+进程间通信,subclassof,批处理
+多线程,subclassof,批处理
+系统调用,subclassof,批处理
+忙等,subclassof,进程
+中断,subclassof,进程
+进程表,subclassof,进程
+中断向量,subclassof,进程
+进程,subclassof,批处理
+进程,subclassof,name
+L1 cache,subclassof,CPU 核心
+L2 cache,subclassof,CPU 核心
+L3 cache,subclassof,CPU 核心
+RAM,subclassof,CPU 核心
+context switch,subclassof,CPU 核心
+程序状态字,subclassof,CPU 核心
+程序计数器,subclassof,CPU 核心
+超标量,subclassof,CPU 核心
+流水线,subclassof,CPU 核心
+堆栈寄存器,subclassof,CPU 核心
+CPU 核心,subclassof,name
+SATA,subclassof,总线(Bus)
+总线(Bus),subclassof,计算机架构
+X Window System,subclassof,x86
+x86,subclassof,计算机架构
+计算机架构,subclassof,name
+BSD,subclassof,UNIX 操作系统
+MINIX,subclassof,UNIX 操作系统
+POSIX,subclassof,UNIX 操作系统
+UNIX System V,subclassof,UNIX 操作系统
+DOS,type,MacOS X
+DOS,type,MS-DOS
+操作系统,subclassof,name
+操作系统,type,分布式系统
+操作系统,type,客户操作系统
+操作系统,type,主机操作系统
+操作系统,type,硬实时系统
+操作系统,type,软实时系统
+操作系统,type,分布式网络系统
+操作系统,type,网络操作系统
+操作系统,type,Linux
+操作系统,type,OS/360
+操作系统,type,相容分时系统
+操作系统,type,分时系统
+操作系统,type,多处理系统
+操作系统,type,UNIX 操作系统
+Gnome,subclassof,Linux
+USB,subclassof,驱动程序
+BIOS,subclassof,驱动程序
+DMI,subclassof,驱动程序
+PCIe,subclassof,驱动程序
+GDI,subclassof,驱动程序
+GUI,subclassof,驱动程序
+shell,subclassof,驱动程序
+驱动程序,subclassof,基础设施即服务
+SSF,subclassof,基础设施即服务
+沙盒,subclassof,基础设施即服务
+解释器,subclassof,基础设施即服务
+输入输出内存管理单元,subclassof,基础设施即服务
+平台即服务,subclassof,基础设施即服务
+软件即服务,subclassof,基础设施即服务
+Windows NT,subclassof,基础设施即服务
+FreeBSD,subclassof,基础设施即服务
+数字版权管理（DRM）,subclassof,基础设施即服务
+Service Pack(SP),subclassof,基础设施即服务
+复用,subclassof,基础设施即服务
